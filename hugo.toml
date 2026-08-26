@@ -1,0 +1,21 @@
+baseURL = "/"
+languageCode = "zh-cn"
+title = "我的笔记博客"
+theme = "PaperMod"
+
+[params]
+  env = "production"
+  ShowReadingTime = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+
+[menu]
+  [[menu.main]]
+    name = "首页"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "文章"
+    url = "/posts/"
+    weight = 2
