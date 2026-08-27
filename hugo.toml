@@ -1,5 +1,5 @@
 baseURL = "https://blog.yixiangao.cc/"
-languageCode = "zh-cn"
+locale = "zh‑cn"
 title = "易贤的博客"
 theme = "FixIt"
 
@@ -10,10 +10,10 @@ theme = "FixIt"
   layout = "grid"
 
 [params]
-  defaultTheme = "auto"
+  default_theme = "auto"
   enableDarkmode = true
 
-[menu.main]
+[[menu.main]]
   [[menu.main]]
     name = "首页"
     weight = 1
