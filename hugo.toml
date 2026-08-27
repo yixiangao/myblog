@@ -1,21 +1,24 @@
 baseURL = "https://blog.yixiangao.cc/"
 languageCode = "zh-cn"
 title = "易贤的博客"
-theme = "PaperMod"
+theme = "FixIt"
+
+[pagination]
+  pageSize = 6
+
+[params.homepage]
+  layout = "grid"
 
 [params]
-  env = "production"
-  ShowReadingTime = true
-  ShowPostNavLinks = true
-  ShowBreadCrumbs = true
-  ShowCodeCopyButtons = true
+  defaultTheme = "auto"
+  enableDarkmode = true
 
-[menu]
+[menu.main]
   [[menu.main]]
     name = "首页"
-    url = "/"
     weight = 1
+    url = "/"
   [[menu.main]]
     name = "文章"
-    url = "/posts/"
     weight = 2
+    url = "/posts/"
