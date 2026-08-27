@@ -6,8 +6,6 @@ theme = "FixIt"
 [pagination]
   pageSize = 6
 
-[params.homepage]
-  layout = "grid"
 
 [params]
   default_theme = "auto"
