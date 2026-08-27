@@ -6,6 +6,10 @@ theme = "FixIt"
 [pagination]
   pageSize = 6
 
+[params.homepage]
+layout = "grid"          # 开启网格卡片，就是截图里的卡片效果
+gridColumn = 2           # md以上屏幕2列卡片
+pagination = true
 
 [params]
   default_theme = "auto"
